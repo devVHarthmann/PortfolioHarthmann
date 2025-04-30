@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#teste {
+    width: 100vw;
+    background-image: url(/img/HomePc.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+
+#hdmain {
+    width: 100vw;
+    height: 15vh;
+    gap: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1s ease-in-out forwards;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(255, 255, 255, 0));
+
+}
+
+
+#mainhome {
+    width: 100vw;
+    height: 84vh;
+    display: flex;
+}
+
+#central {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+#tit {
+
+    color: white;
+    letter-spacing: 5px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 30pt;
+
+}
+
+#txtCentral {
+    font-family: "Roboto Mono", monospace;
+    font-size: 45pt;
+    font-weight: 1000;
+    color: rgb(255, 183, 0);
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+#stxt {
+    width: 600px;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    animation: moving 8s infinite forwards;
+}
+
+#bt1 {
+    transition: transform 0.6s ease, margin-top 0.6s ease, background 0.6s ease;
+    animation: fadeIn 1s ease-in-out forwards;
+    padding: 20px;
+    border-radius: 5px;
+    width: 230px;
+    font-family: "Roboto Mono", monospace;
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 20vh;
+    border: none;
+    font-size: 30pt;
+}
+
+
+
+
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+ul button {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+ul button:hover {
+    transition: 0.2s;
+    color: goldenrod;
+}
+
+#navg {
+    display: flex;
+    gap: 20px;
+}
+
+#navg ul {
+    font-family: "Roboto Mono", monospace;
+    font-size: 16pt;
+}
+
+#navg button {
+    font-family: "Roboto Mono", monospace;
+    font-size: 16pt;
+}
+
+a:hover {
+    transition: 0.2s;
+    color: goldenrod;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes moving {
+    0% {
+        opacity: 1;
+        transform: translateY(-5px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(+10px);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Sobre */
+
+
+#hdsobre {
+    width: 100vw;
+    height: 15vh;
+    gap: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1s ease-in-out forwards;
+
+
+}
+
+#mainSobre {
+    width: 90vw;
+    height: 78vh;
+    display: flex;
+    justify-content: start;
+
+    gap: 10vw;
+}
+
+#tit2 {
+
+    color: rgb(0, 0, 46);
+    letter-spacing: 5px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 30pt;
+
+}
+
+#navg2 ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 46);
+}
+
+#navg2 ul button {
+    text-decoration: none;
+    color: rgb(0, 0, 46);
+    background-color: transparent;
+    border: none;
+}
+
+#navg2 ul button:hover {
+    transition: 0.2s;
+    color: white;
+}
+
+#navg2 {
+    display: flex;
+    gap: 20px;
+}
+
+#navg2 ul {
+    font-family: "Roboto Mono", monospace;
+    font-size: 16pt;
+}
+
+#navg2 button {
+    font-family: "Roboto Mono", monospace;
+    font-size: 16pt;
+}
+
+#navg2 a:hover {
+    transition: 0.2s;
+    color: white;
+}
+
+#textoA {
+    width: 500px;
+    height: 350px;
+
+}
+
+#escr {
+    font-family: "Roboto Mono", monospace;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.253);
+}
+
+
+/* SOBRE */
+
+#sobreMain {
+    width: 100vw;
+    background-image: url(/img/SobrePc.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titSobre {
+    font-family: "Roboto Mono", monospace;
+    color: rgb(0, 0, 46);
+    font-size: 18pt;
+    margin-top: 3vh;
+}

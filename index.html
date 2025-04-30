@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitor Harthmann | Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div id="teste">
+        <header id="hdmain">
+            <div id="conthd">
+                <h1 id="tit">HARTHMANN</h1>
+            </div>
+            <nav id="navg">
+                <ul class="l1"><button id="anch">Sobre mim</button></ul>
+                <ul class="l1"><a href="https://github.com/devVHarthmann">GitHub</a></ul>
+                <ul class="l1"><a href="https://www.linkedin.com/in/vitor-da-silva-harthmann-00900a2a5/">LinkedIn</a>
+                </ul>
+
+            </nav>
+        </header>
+        <main id="mainhome">
+            <div id="central">
+                <h1 id="txtCentral">EAE, EU SOU VITOR HARTHMANN</h1>
+                <p id="stxt">Sou um estudante de programação procurando oportunidades</p>
+                
+            </div>
+        </main>
+    </div>
+    <div id="sobreMain">
+        <header id="hdsobre">
+            <div id="conthd">
+                <h1 id="tit2">HARTHMANN</h1>
+            </div>
+            <nav id="navg2">
+                <ul class="l1"><button id="ancH">Home</button></ul>
+                <ul class="l1"><a href="https://github.com/devVHarthmann">Projetos</a></ul>
+                <ul class="l1"><a href="https://www.instagram.com/VitorHarthmann/">Instagram</a></ul>
+
+            </nav>
+        </header>
+        <main id="mainSobre">
+            <div id="textoA">
+                <h1 id="titSobre">Sobre mim</h1>
+                <p id="escr">
+                    Ao longo da minha trajetória profissional, desenvolvi expertise em uma variedade de tecnologias,
+                    destacando-se, entre elas, o domínio de JavaScript, HTML, CSS, Java, MySQL e Python, com as quais
+                    elaboro
+                    projetos pautados na eficiência, na inovação e na busca constante pela excelência técnica.
+                </p>
+                <h1 id="titSobre">Objetivos</h1>
+                <p id="escr">Tenho direcionado meu desenvolvimento profissional para a área de back-end, com foco no
+                    aprimoramento de habilidades em arquitetura de sistemas, APIs, bancos de dados e segurança da
+                    informação, almejando atuar com solidez e excelência na construção de soluções eficientes e
+                    escaláveis.</p>
+            </div>
+
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $("#anch").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#sobreMain").offset().top
+            }, 1000);
+        });
+
+        $("#ancH").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#teste").offset().top
+            }, 1000);
+        });
+    </script>
+</body>
+
+</html>
