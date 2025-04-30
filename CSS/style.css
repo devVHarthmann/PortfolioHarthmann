@@ -13,7 +13,7 @@ body {
 
 #teste {
     width: 100vw;
-    background-image: url(/img/HomePc.webp);
+    background-image: url(../img/HomePc.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -246,7 +246,7 @@ a:hover {
 
 #sobreMain {
     width: 100vw;
-    background-image: url(/img/SobrePc.webp);
+    background-image: url(../img/SobrePc.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
